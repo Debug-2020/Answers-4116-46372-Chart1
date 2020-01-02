@@ -70,7 +70,12 @@ import org.jfree.data.Range;
 public class XYDataImageAnnotation extends AbstractXYAnnotation
         implements Cloneable, PublicCloneable, XYAnnotationBoundsInfo {
 
-    /** The image. */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/** The image. */
     private transient Image image;
 
     /**
